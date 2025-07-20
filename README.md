@@ -1,13 +1,13 @@
 
-# 🇨🇦 Canada Birth Probability Analysis (2000–2020)
+# Canada Birth Probability Analysis (2000–2020)
 
-## 📌 Project Overview
+## Project Overview
 
 This project was completed as part of a technical exercise for a **Data and System Analyst** position. The objective was to analyze publicly available data to determine the **probability that a person born in a given year was born in Canada**, and to **explore trends in Canada's birth rate** over time.
 
 ---
 
-## 🧪 Goal
+##  Goal
 
 - Retrieve global **birth rate** and **population** data per country per year
 - Estimate **number of births per country per year**
@@ -18,14 +18,14 @@ This project was completed as part of a technical exercise for a **Data and Syst
 
 ---
 
-## 🔗 Data Sources
+##  Data Sources
 
-- 🌍 [Birth rate (World Bank)](https://api.worldbank.org/v2/country/all/indicator/SP.DYN.CBRT.IN?format=json)
-- 👥 [Population (World Bank)](https://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL?format=json)
+-  [Birth rate (World Bank)](https://api.worldbank.org/v2/country/all/indicator/SP.DYN.CBRT.IN?format=json)
+-  [Population (World Bank)](https://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL?format=json)
 
 ---
 
-## ⚙️ Tools & Technologies
+## Tools & Technologies
 
 - Python (Pandas, Requests, SQLite, Matplotlib, Seaborn, Scikit-learn)
 - SQLite for structured querying
@@ -33,7 +33,7 @@ This project was completed as part of a technical exercise for a **Data and Syst
 
 ---
 
-## 📊 Key Results
+##  Key Results
 
 ### Probability of Being Born in Canada
 - In **2010**, the probability of being born in Canada was **0.0258%**
@@ -50,7 +50,7 @@ This project was completed as part of a technical exercise for a **Data and Syst
 
 ---
 
-## 📈 Visualizations
+##  Visualizations
 
 Charts are saved in the `output/` folder and include:
 
@@ -62,7 +62,7 @@ Charts are saved in the `output/` folder and include:
 
 ---
 
-## 🧠 Insights & Interpretation
+##  Insights & Interpretation
 
 - Canada's global share of births has been consistent despite population growth
 - Birth rate decline mirrors patterns in other high-income countries due to urbanization, delayed parenthood, and socio-economic factors
@@ -70,7 +70,7 @@ Charts are saved in the `output/` folder and include:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 canada_birth_probability/
@@ -84,7 +84,7 @@ canada_birth_probability/
 
 ---
 
-## 📝 How to Run
+##  How to Run
 
 1. Clone the repository
 2. Install dependencies:
@@ -98,7 +98,7 @@ canada_birth_probability/
 
 ---
 
-## 🚀 Future Recommendations
+## Future Recommendations
 
 - Use time series models like **ARIMA** or **Prophet** for more advanced forecasting
 - Explore **province-level data** using Statistics Canada APIs
@@ -106,4 +106,4 @@ canada_birth_probability/
 
 ---
 
-📬 *For questions or collaboration inquiries, feel free to reach out!*
+
