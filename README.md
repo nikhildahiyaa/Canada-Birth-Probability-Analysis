@@ -41,12 +41,11 @@ This project was completed as part of a technical exercise for a **Data and Syst
 - **Peak year:** 2008, with the highest global birth share for Canada
 
 ### Birth Rate Forecast
+
 - A **linear regression model** predicted the birth rate in 2030 will be **approximately 10.0 births per 1,000 people**
 - Historical trend shows a steady decline since 2008
 - Model:  
-  \[
-  \text{Birth Rate} = 84.859 - 0.0369 \times \text{Year}
-  \]
+  **Birth Rate = 84.859 − 0.0369 × Year**
 
 ---
 
